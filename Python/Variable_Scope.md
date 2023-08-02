@@ -25,6 +25,7 @@ def bar():
 bar() # 지역변수 30 출력 
 
 print('Ex1 > ', b)      # Read global variable
+```
 
 <br>
 
@@ -49,6 +50,7 @@ def barfoo():
 barfoo()    
 
 print('Ex2 > ', d)
+```
 
 <br>
 
@@ -63,7 +65,8 @@ def outer():
     return inner
 in_test = outer() 
 in_test()          
-in_test() # 값이 10씩 증가, Closure 패턴     
+in_test() # 값이 10씩 증가, Closure 패턴
+```
 
 in_test = outer() # Closure 패턴 
 
