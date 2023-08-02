@@ -26,6 +26,7 @@ bar() # 지역변수 30 출력
 
 print('Ex1 > ', b)      # Read global variable
 
+<br>
 
 ### 💡 Variable Scope EX2)
 ```python
@@ -47,8 +48,9 @@ def barfoo():
 
 barfoo()    
 
-print('Ex2 > ', d)     
+print('Ex2 > ', d)
 
+<br>
 
 #### 💡 Variable Scope EX3)
 ```python
