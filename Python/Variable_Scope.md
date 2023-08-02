@@ -65,8 +65,3 @@ in_test = outer()
 in_test() # 80 출력       
 in_test() # 값이 10씩 증가, Closure 패턴
 ```
-
-in_test = outer() # Closure 패턴 
-
-in_test()          
-in_test() # 값이 10씩 증가    
