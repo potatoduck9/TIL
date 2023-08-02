@@ -29,7 +29,7 @@ print('Ex1 > ', b)      # Read global variable
 
 <br>
 
-### 💡 Variable Scope EX2)
+## 💡 Variable Scope EX2)
 ```python
 c = 40 # global variable 
 
@@ -54,7 +54,7 @@ print('Ex2 > ', d)
 
 <br>
 
-#### 💡 Variable Scope EX3)
+## 💡 Variable Scope EX3)
 ```python
 def outer():
     e = 70
