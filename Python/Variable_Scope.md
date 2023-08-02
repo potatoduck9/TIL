@@ -38,18 +38,16 @@ def foobar():
     print('Ex2 > ', c)          
 
 foobar()  # UnboundLocalError가 뜸
-* * *
 
 d = 50
 def barfoo():
     global d # UnboundLocalError를 해결하기 위해 global 사용  
                  
     d += 100      
-    print('Ex2 > ', d) # 150 출력
+    print('Ex2 > ', d)
 
-barfoo()    
+barfoo() # 150 출력
 
-print('Ex2 > ', d)
 ```
 
 <br>
@@ -64,8 +62,9 @@ def outer():
         print('Ex3 > ', e)
     return inner
 in_test = outer() 
-in_test()          
+in_test() # 80 출력       
 in_test() # 값이 10씩 증가, Closure 패턴
+```
 
 in_test = outer() # Closure 패턴 
 
