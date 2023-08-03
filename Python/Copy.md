@@ -1,4 +1,4 @@
-# Copy, Shallow Copy, Depp Copy
+# Copy, Shallow Copy, Deep Copy
 > 객체의 복사 종류에는 Copy, Shallow Copy, Deep Copy가 있다.<br>
 > 파이썬에서는 객체를 두 종류로 구분할 수 있다. mutable(변경되는 객체), immutable(변경되지 않는 객체) <br>
 > mutable 객체의 종류는 list, set, dict 정도가 있고 immutable 객체의 종류는 int, float, str, bool 등이 있다. <br>
