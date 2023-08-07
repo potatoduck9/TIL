@@ -15,7 +15,7 @@ img, *images = [Image.open(f).resize((320, 240), Image.ANTIALIAS) for f in sorte
 
 # 이미지 저장
 img.save(fp = image_result,
-         format = 'GIF'.
+         format = 'GIF',
          append_images = images,
          save_all = True,
          duration = 500, # 다음 사진 나오는 시간 
